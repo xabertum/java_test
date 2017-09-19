@@ -14,6 +14,21 @@ import java.util.Scanner;
  */
 public class Java_Test {
 
+    int x, y;
+    static int numObjetosJava_Test = 0;
+
+    Java_Test(int a, int b) {
+        x = a;
+        y = b;
+        numObjetosJava_Test++;
+    }
+
+    public static int cuantosObjetos() {
+
+        return numObjetosJava_Test;
+
+    }
+
     /**
      * @param args the command line arguments
      */
@@ -22,10 +37,14 @@ public class Java_Test {
         System.out.println(new Date());
 
         Scanner sc = new Scanner(System.in);
+        System.out.println("Introduzca un numero");
         sc.nextInt();
 
-        System.out.println("Fin del programa");
+        Java_Test jt = new Java_Test(3, 5);
 
+        System.out.println(cuantosObjetos());
+
+        System.out.println("Fin del programa");
     }
 
 }
