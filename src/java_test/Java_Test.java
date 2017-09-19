@@ -29,6 +29,14 @@ public class Java_Test {
 
     }
 
+    public int getX() {
+        return x;
+    }
+
+    public int getY() {
+        return y;
+    }
+
     /**
      * @param args the command line arguments
      */
@@ -45,6 +53,9 @@ public class Java_Test {
         System.out.println(cuantosObjetos());
 
         System.out.println("Fin del programa");
+
+        System.out.println(jt.x + jt.y);
+
     }
 
 }
