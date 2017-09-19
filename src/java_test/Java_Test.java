@@ -5,26 +5,27 @@
  */
 package java_test;
 
+import java.util.Date;
+import java.util.Scanner;
+
 /**
  *
  * @author xabertum
  */
 public class Java_Test {
-    
-    
-    
-    
-    
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         System.out.println("Hola a todos");
-        System.out.println("new Date()");
-        
-        
-        
+        System.out.println(new Date());
+
+        Scanner sc = new Scanner(System.in);
+        sc.nextInt();
+
+        System.out.println("Fin del programa");
+
     }
-    
+
 }
