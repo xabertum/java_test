@@ -24,9 +24,7 @@ public class Java_Test {
     }
 
     public static int cuantosObjetos() {
-
         return numObjetosJava_Test;
-
     }
 
     public int getX() {
