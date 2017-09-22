@@ -16,6 +16,12 @@ public class Empleado {
 
     static private int contador = 0;
 
+    public Empleado() {}
+    /**
+     *
+     * @param nombre
+     * @param sueldo
+     */
     public Empleado(String nombre, int sueldo) {
         this.nombre = nombre;
         this.sueldo = sueldo;
@@ -23,10 +29,18 @@ public class Empleado {
 
     }
 
+    /**
+     *
+     * @param porcentaje
+     */
     public void aumentarSueldo(int porcentaje) {
         sueldo += (int) (sueldo * porcentaje / 100);
     }
 
+    /**
+     *
+     * @return
+     */
     @Override
     public String toString() {
         return "Num. emplado" + numEmpleado + "Nombre - " + nombre + "Sueldo "
