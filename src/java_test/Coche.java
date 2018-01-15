@@ -10,20 +10,20 @@ package java_test;
  * @author Javier Delgado
  */
 public class Coche {
-    
+
     int ruedas;
     private double velocidad = 0;
     String nombre;
-    
+
     /**
      * Aumenta  la velocidad. 
      * @param cantidad 
      */
-        
+
     public void acelerar(double cantidad) {
         velocidad += cantidad;
     }
-    
+
     /**
      * Disminuye la velocidad. 
      * @param cantidad 
@@ -31,7 +31,7 @@ public class Coche {
     public void frenar(double cantidad) {
         velocidad -= cantidad;
     }
-    
+
     /**
      * Devuelve el valor de velocidad. 
      * @return 
