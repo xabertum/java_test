@@ -5,9 +5,6 @@
  */
 package java_test;
 
-import java.util.Date;
-import java.util.Scanner;
-
 /**
  *
  * @author xabertum
